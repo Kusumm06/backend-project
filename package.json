@@ -1,28 +1,25 @@
 {
   "name": "project-learning-using-yt",
   "version": "1.0.0",
-  "description": "A backend learning project",
+  "description": "Backend learning project",
   "type": "module",
   "main": "src/index.js",
   "scripts": {
-    "dev": "nodemon -r dotenv/config src/index.js",
-    "start": "node -r dotenv/config src/index.js"
+    "dev": "nodemon src/index.js",
+    "start": "node src/index.js"
   },
-  "keywords": [
-    "node",
-    "express",
-    "backend"
-  ],
+  "keywords": [],
   "author": "Kusum Paryani",
   "license": "ISC",
   "dependencies": {
-    "cookie-parser": "^1.4.7",
-    "cors": "^2.8.6",
+    "cloudinary": "^2.9.0",
     "dotenv": "^17.3.1",
     "express": "^5.2.1",
-    "mongoose": "^9.2.2"
+    "mongoose": "^9.2.2",
+    "mongoose-aggregate-paginate-v2": "^1.1.4",
+    "multer": "^2.1.1"
   },
   "devDependencies": {
-    "nodemon": "^3.0.0"
+    "nodemon": "^3.1.14"
   }
 }
